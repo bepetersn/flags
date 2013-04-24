@@ -28,11 +28,11 @@ Here's how it works:
 | 2             |   [2]            |
 | 3             |  [1, 2]          |
 | 4             |   [3]            |
-| 5             |    [3, 1]        |
-| 6             |    [3, 2]        |
-| 7             |    [3, 2, 1]     |
+| 5             |    [1, 3]        |
+| 6             |    [2, 3]        |
+| 7             |    [1, 2, 3]     |
 | 8             |    [4]           |
-| 9             |    [4, 1]        |
+| 9             |    [1, 4]        |
 
 ... and so on. This system relies on the fact that 
 any number can be broken down into a unique set of 
