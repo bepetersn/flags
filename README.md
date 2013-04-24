@@ -24,15 +24,15 @@ Here's how it works:
 
 |     Code      |   Gives You      |
 |:-------------:|:----------------:|
-| 1             |   thing #1       |
-| 2             |   thing #2       |
-| 3             | things #1, #2    |
-| 4             |   thing #3       |
-| 5             | things #3, #1    |
-| 6             | things #3, #2    |
-| 7             |things #3, #2, #1 |
-| 8             |   thing #4       |
-| 9             |   things #4, #1  |
+| 1             |      [1]         |
+| 2             |   [2]            |
+| 3             |  [1, 2]          |
+| 4             |   [3]            |
+| 5             |    [3, 1]        |
+| 6             |    [3, 2]        |
+| 7             |    [3, 2, 1]     |
+| 8             |    [4]           |
+| 9             |    [4, 1]        |
 
 ... and so on. This system relies on the fact that 
 any number can be broken down into a unique set of 
