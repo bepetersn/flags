@@ -76,3 +76,5 @@ def parts(code):
 """ Returns the code corresponding to a certain list of numbers. """
 def code(indices):
     return sum(ses(index) for index in indices)
+    
+    
