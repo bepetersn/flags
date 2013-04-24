@@ -4,7 +4,7 @@ ses
 Use this module to easily parse a single, unique 
 code containing as much information as your 
 function or program needs, much as the bash 
-'chmod' command extracts 3 different file
+`chmod` command extracts 3 different file
 permissions from each number in 777. In fact, this 
 module is based on that system, but has been 
 greatly extended.  
@@ -21,17 +21,47 @@ whole number at all. What you get back is a list
 of integers.
 
 Here's how it works:   
- code | gives you  
-++++++|++++++++++++++++  
-   1  |  #1  
-   2  |  #2  
-   3  |  #1, #2  
-   4  |  #3  
-   5  |  #1, #3  
-   6  |  #2, #3  
-   7  |  #1, #2, #3  
-   8  |  #4  
-   9  |  #1, #4  
+
+<table>
+    <tr>
+        <td>code</td>
+        <td>gives you</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>thing #1</td>  
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>thing #2</td>  
+    <tr>
+        <td>3</td>
+        <td>things #1, #2</td>  
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>thing #3</td>  
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>things #1, #3</td>  
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>things #2, #3</td>  
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>things #1, #2, #3</td>  
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>thing #4</td>  
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>things #1, #4</td>  
+    </tr> 
 
 ... and so on. This system relies on the fact that 
 any number can be broken down into a unique set of 
