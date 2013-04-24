@@ -51,24 +51,17 @@ ses.code().
 Trivial example:
 
     for i in range(1, 11):
-
         print "iteration #", i
-
         n = ses.indices(i)
         str = ""
-
         if 1 in n:
             str += "A"
-
         if 2 in n:
             str += "B"
-
         if 3 in n:
             str += "C"
-
         if 4 in n:
             str += "D"
-
         print str
 
 Output:
