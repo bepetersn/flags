@@ -20,15 +20,15 @@
     Here's how it works: 
      code | gives you
     ++++++|++++++++++++++++
-       1  |  #1 
-       2  |  #2
-       3  |  #1, #2
-       4  |  #3
-       5  |  #1, #3
-       6  |  #2, #3
-       7  |  #1, #2, #3
-       8  |  #4
-       9  |  #1, #4
+       1  |  [1] 
+       2  |  [2]
+       3  |  [1, 2]
+       4  |  [3]
+       5  |  [1, 3]
+       6  |  [2, 3]
+       7  |  [1, 2, 3]
+       8  |  [4]
+       9  |  [1, 4]
 
     ... and so on. This system relies on the fact that 
     any number can be broken down into a unique set of 
@@ -40,67 +40,8 @@
     actual component parts of your code, use ses.parts().
     Finally, if you want to find out what code you need to 
     get back a certain list of indices, pass your list into
-    ses.code(). 
-
-    --------------------------
-
-    Trivial example:
-
-    for i in range(1, 11):
-
-        print "iteration #", i
-
-        n = ses.indices(i)
-        str = ""
-
-        if 1 in n:
-            str += "A"
-
-        if 2 in n:
-            str += "B"
-
-        if 3 in n:
-            str += "C"
-
-        if 4 in n:
-            str += "D"
-
-        print str
-
-    Output:
-
-    iteration 1
-    A
-
-    iteration 2
-    B
-
-    iteration 3
-    AB
-
-    iteration 4
-    C
-
-    iteration 5
-    AC
-
-    iteration 6
-    BC
-
-    iteration 7
-    ABC
-
-    iteration 8
-    D
-
-    iteration 9
-    AD
-
-    iteration 10 
-    ABD
-
-    """ 
-
+    ses.code(). """
+    
 
 """ Returns the nth member of the SES. """
 def ses(n):
