@@ -3,8 +3,8 @@ ses
 
 Use this module to easily parse a single, unique 
 code containing as much information as your 
-function or program needs, much as the bash 
-`chmod` command extracts 3 different file
+function or program needs, in the same way that the 
+bash `chmod` command extracts 3 different file
 permissions from each number in 777. In fact, this 
 module is based on that system, but has been 
 greatly extended.  
