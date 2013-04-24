@@ -22,46 +22,17 @@ of integers.
 
 Here's how it works:   
 
-<table>
-    <tr>
-        <td>code</td>
-        <td>gives you</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>thing #1</td>  
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>thing #2</td>  
-    <tr>
-        <td>3</td>
-        <td>things #1, #2</td>  
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>thing #3</td>  
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>things #1, #3</td>  
-    </tr>
-    <tr>
-        <td>6</td>
-        <td>things #2, #3</td>  
-    </tr>
-    <tr>
-        <td>7</td>
-        <td>things #1, #2, #3</td>  
-    </tr>
-    <tr>
-        <td>8</td>
-        <td>thing #4</td>  
-    </tr>
-    <tr>
-        <td>9</td>
-        <td>things #1, #4</td>  
-    </tr> 
+|     Code      |   Gives You      |
+|:-------------:|:----------------:|
+| 1             |   thing #1       |
+| 2             |   thing #2       |
+| 3             | things #1, #2    |
+| 4             |   thing #3       |
+| 5             | things #3, #1    |
+| 6             | things #3, #2    |
+| 7             |things #3, #2, #1 |
+| 8             |   thing #4       |
+| 9             |   things #4, #1  |
 
 ... and so on. This system relies on the fact that 
 any number can be broken down into a unique set of 
