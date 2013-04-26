@@ -68,5 +68,5 @@ Simple example:
     tokens = ['No', 'star', 'is', 'o\'er', 'the', 'lake', ',' 'its' 'pale', 'watch', 'keeping']
     
     # looks at the sentence's two- and three-word combinations, but nothing else.
-    handle_ngrams(tokens, ses.code([2, trigrams]))
+    handle_ngrams(tokens, ses.code([2, 3]))
 
