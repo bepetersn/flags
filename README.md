@@ -66,5 +66,7 @@ Simple example:
             # something with quadrigrams
     
     tokens = ['No', 'star', 'is', 'o\'er', 'the', 'lake', ',' 'its' 'pale', 'watch', 'keeping']
-    handle_ngrams(tokens, ses.code([2, 4]))
+    
+    # looks at the sentence's two- and three-word combinations, but nothing else.
+    handle_ngrams(tokens, ses.code([2, trigrams]))
 
