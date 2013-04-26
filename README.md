@@ -50,6 +50,8 @@ ses.code().
 
 Trivial example:
 
+    import ses
+    
     for i in range(1, 11):
         print "iteration #", i
         n = ses.indices(i)
