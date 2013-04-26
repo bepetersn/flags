@@ -48,43 +48,23 @@ ses.code().
 
 --------------------------
 
-Trivial example:
+Simple example:
 
     import ses
     
-    for i in range(1, 11):
-        print "iteration #", i
-        n = ses.indices(i)
-        str = ""
-        if 1 in n:
-            str += "A"
-        if 2 in n:
-            str += "B"
-        if 3 in n:
-            str += "C"
-        if 4 in n:
-            str += "D"
-        print str
+    # takes a list of tokens, and a code 
+    # denoting which ngrams to look at.
+    def handle_ngrams(tokens, code):
+        n_grams = ses.indices(code)
+        if 1 in n_grams:
+            # do something with the unigrams
+        if 2 in n_grams:
+            # something with bigrams
+        if 3 in n_grams:
+            # something with trigrams
+        if 4 in n_grams:
+            # something with quadrigrams
+    
+    tokens = ['No', 'star', 'is', 'o'er', 'the', 'lake', ',' 'its' 'pale', 'watch', 'keeping']
+    handle_ngrams(tokens, ses.code([2, 4]))
 
-Output:
-
-> iteration 1  
-> A  
-> iteration 2  
-> B  
-> iteration 3  
-> AB  
-> iteration 4  
-> C  
-> iteration 5  
-> AC  
-> iteration 6  
-> BC  
-> iteration 7  
-> ABC  
-> iteration 8  
-> D  
-> iteration 9  
-> AD  
-> iteration 10   
-> ABD  
