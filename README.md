@@ -69,4 +69,6 @@ Simple example:
     
     # looks at the sentence's two- and three-word combinations, but nothing else.
     handle_ngrams(tokens, ses.code([2, 3]))
+    
+As you can see, `ses` makes passing information to your functions simple, and conceivably makes abstraction even simpler.
 
