@@ -65,7 +65,7 @@ Simple example:
         if 4 in n_grams:
             # something with quadrigrams
     
-    tokens = ['No', 'star', 'is', 'o\'er', 'the', 'lake', ',' 'its' 'pale', 'watch', 'keeping']
+    tokens = ['No', 'star', 'is', 'o\'er', 'the', 'lake', ',', 'its', 'pale', 'watch', 'keeping']
     
     # looks at the sentence's two- and three-word combinations, but nothing else.
     handle_ngrams(tokens, ses.code([2, 3]))
