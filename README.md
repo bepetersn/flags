@@ -31,6 +31,7 @@ Outside of a programmatic interface, call for example:
 
 ```python
 
+# set some constants
 PRINT = 0
 MODIFY = 1
 EXTRACT = 2
