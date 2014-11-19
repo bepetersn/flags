@@ -1,7 +1,6 @@
 from distutils.core import setup
 setup(
     name = 'flags',
-    packages = ['flags'],
     version = '0.0.1',
     description = 'Flag passer',
     author='Brian Peterson',
