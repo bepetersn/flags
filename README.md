@@ -37,7 +37,7 @@ EXTRACT = 2
 ANNOTATE = 3
 ACCESSIBILITY = 4
 
-some_api(doc, seq.code([0, 3, 4]))
+some_api(doc, seq.code([PRINT, ANNOTATE, ACCESSIBILITY]))
 
 ```
 
