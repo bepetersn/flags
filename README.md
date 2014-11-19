@@ -4,18 +4,17 @@ function or program needs, much as the bash
 'chmod' command extracts 3 different file
 permissions from each number in 775. 
 
-Here's how it works: 
- code | flags
-++++++|++++++++++++++++
-   1  |  [0] 
-   2  |  [1]
-   3  |  [0, 1]
-   4  |  [2]
-   5  |  [0, 2]
-   6  |  [1, 2]
-   7  |  [0, 1, 2]
-   8  |  [3]
-   9  |  [0, 3]
+|     Code      |   Flags     |
+|:-------------:|:----------------:|
+| 1             |      [1]         |
+| 2             |   [2]            |
+| 3             |  [1, 2]          |
+| 4             |   [3]            |
+| 5             |    [1, 3]        |
+| 6             |    [2, 3]        |
+| 7             |    [1, 2, 3]     |
+| 8             |    [4]           |
+| 9             |    [1, 4]        |
 
 ... and so on. This system relies on the fact that 
 any integer can be broken down into a unique set of 
