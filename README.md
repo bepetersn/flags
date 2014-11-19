@@ -31,6 +31,8 @@ Outside of a programmatic interface, call for example:
 
 ```python
 
+from flags import code
+
 # set some constants
 PRINT = 0
 MODIFY = 1
@@ -38,7 +40,7 @@ EXTRACT = 2
 ANNOTATE = 3
 ACCESSIBILITY = 4
 
-some_api(doc, seq.code([PRINT, ANNOTATE, ACCESSIBILITY]))
+some_api(doc, code([PRINT, ANNOTATE, ACCESSIBILITY]))
 
 ```
 
@@ -47,9 +49,11 @@ Inside that inferface, call:
 
 ```python
 
+from flags import flags
+
 def some_api(doc, code):
     # code == 25
-    behaviors = seq.flags(code)
+    behaviors = flags(code)
 
     # can't modify
     if MODIFY in behaviors:
