@@ -21,7 +21,7 @@ any integer can be broken down into a unique set of
 the members of the sequence y = 2^n. Basically, 
 these are the members of the base-2 number system
 which can be represented with just a single digit set,
-which is to say they are capable of hold the most 
+which is to say they are capable of holding the most 
 information.
 
 Usage
@@ -48,6 +48,7 @@ Inside that inferface, call:
 ```python
 
 def some_api(doc, code):
+    # code == 25
     behaviors = seq.flags(code)
 
     # can't modify
