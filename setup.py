@@ -7,7 +7,7 @@ setup(
     author='Brian Peterson',
     author_email='bepetersn@gmail.com',
     url='https://github.com/bepetersn/flags',
-    licenese='',
+    license='',
     classifiers=[
     ],
 )
